@@ -34,11 +34,11 @@ int _printf(const char *format, ...)
 				if (fmt != NULL)
 				{
 					count += fmt(args);
+					i++;
 				}
 				else
 					_putchar(format[i]);
 			}
-			i++;
 		}
 	}
 	va_end(args);
