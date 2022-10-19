@@ -22,7 +22,7 @@ int _printf(const char *format, ...)
 			_putchar(format[i]);
 			count = count + 1;
 		}
-		if (format[i] == '%')
+		else if (format[i] == '%')
 		{
 			if (format[i + 1] == '\0')
 			{
@@ -37,7 +37,10 @@ int _printf(const char *format, ...)
 					i++;
 				}
 				else
+				{
 					_putchar(format[i]);
+					count++;
+				}
 			}
 		}
 	}
