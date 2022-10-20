@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
- * print_b - prints number to base of 10
+ * print_u - prints number to base of 10
  * @args: the arguments
  * Return: number count
 */
-int print_b(va_list args)
+int print_u(va_list args)
 {
     int i = 0;
     int count = 0;
@@ -13,4 +14,4 @@ int print_b(va_list args)
     count = base_convert(i, 10);
 
     return (count);
-}p
+}
