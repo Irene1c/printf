@@ -7,11 +7,10 @@
 */
 int print_o(va_list args)
 {
-    int i = 0;
-    int count = 0;
-
-    i = va_arg(args unsigned int);
-    count = base_convert(i, 8);
-
-    return (count);
+	int i = 0;
+	int count = 0;
+	
+	i = va_arg(args, unsigned int);
+	count = base_convert(i, 8);
+	return (count);
 }
