@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_x - prints the number to base 16 in uppercase
+ * print_X - prints the number to base 16 in uppercase
  * @args: the arguments
  * Return: number count
 */
-int print_x(va_list args)
+int print_X(va_list args)
 {
     int i = 0;
     int count = 0;
