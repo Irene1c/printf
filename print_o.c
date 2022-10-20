@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_b - prints number to base of 8
+ * print_o - prints number to base of 8
  * @args: the arguments
  * Return: number count
 */
-int print_b(va_list args)
+int print_o(va_list args)
 {
     int i = 0;
     int count = 0;
