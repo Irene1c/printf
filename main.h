@@ -20,8 +20,14 @@ typedef struct f
 int _putchar(char c);
 int _printf(const char *format, ...);
 int (*get_func(char s))(va_list);
-int print_c(va_list);
-int print_s(va_list);
-int print_percent(va_list);
+int print_c(va_list args);
+int print_s(va_list args);
+int print_percent(va_list args);
+int base_convert(unsigned int n, int base);
+int print_b(va_list args);
+int print_x(va_list args);
+int print_X(va_list args);
+int print_o(va_list args);
+int print_u(va_list args);
 
 #endif
