@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_b - prints number to base of 2
  * @args: the arguments
