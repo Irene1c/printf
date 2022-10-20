@@ -30,7 +30,7 @@ int base_convert(unsigned int n, int base)
         n = n / base;
         i--;
     }
-    for (p = 1; array[p] != 0; p++)
+    for (p = i; array[p] != 0; p++)
     {
         _putchar(array[p]);
     }
