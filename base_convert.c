@@ -18,8 +18,7 @@ int base_convert(unsigned int n, int base)
 	ptr = &array[99];
 	*ptr = '\0';
 
-	while (n != 0)
-	{
+	do {
 		if (n != 0)
 		{
 			*--ptr = rep1[n % base];
@@ -30,7 +29,7 @@ int base_convert(unsigned int n, int base)
 		}
 		n = n / base;
 		i--;
-	}
+	} while (n != 0);
 
 	for (p = i; array[p] != 0; p++)
 	{
