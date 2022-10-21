@@ -24,6 +24,7 @@ int print_c(va_list args);
 int print_s(va_list args);
 int print_percent(va_list args);
 int base_convert(unsigned int n, int base);
+int base_lower_convert(unsigned int n, int base);
 int print_b(va_list args);
 int print_x(va_list args);
 int print_X(va_list args);
