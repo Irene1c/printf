@@ -12,5 +12,6 @@ int print_X(va_list args)
 
 	i = va_arg(args, unsigned int);
 	count = base_convert(i, 16);
+
 	return (count);
 }

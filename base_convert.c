@@ -1,21 +1,23 @@
 #include "main.h"
 
 /**
- * base_convert - converts a number to the base specifiers
+ * base_convert - converts a number to the base specified
  * @n: the number
  * @base: the base
  * Return: number of characters printed
-*/
+ */
 int base_convert(unsigned int n, int base)
 {
-	char rep1[] = "123456789ABCDEF";
-	char rep2[] = "123456789abcdef";
+	char rep1[] = "0123456789ABCDEF";
+	char rep2[] = "0123456789abcdef";
 	char array[100];
 	char *ptr;
 	int i = 99;
 	int p = 0;
+
 	ptr = &array[99];
 	*ptr = '\0';
+
 	while (n != 0)
 	{
 		if (n != 0)
@@ -29,7 +31,8 @@ int base_convert(unsigned int n, int base)
 		n = n / base;
 		i--;
 	}
-	for (p = 1; array[p] != 0; p++)
+
+	for (p = i; array[p] != 0; p++)
 	{
 		_putchar(array[p]);
 	}
