@@ -31,6 +31,7 @@ int print_X(va_list args);
 int print_o(va_list args);
 int print_u(va_list args);
 int print_R(va_list args);
+int print_r(va_list args);
 int print_d(va_list args);
 int print_i(va_list args);
 
