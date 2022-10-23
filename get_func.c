@@ -17,6 +17,8 @@ int (*get_func(char s))(va_list)
 		{'o', print_o},
 		{'u', print_u},
 		{'R', print_R},
+		{'d', print_d},
+		{'i', print_i},
 		{'\0', NULL}
 	};
 	int j = 0;
