@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_b - prints unsigned integer to base 10
+ * print_u - prints unsigned integer to base 10
  * @args: the argument
  * Return: number count
  */
