@@ -16,7 +16,7 @@ int print_d(va_list args)
 		i = -i;
 		count += _putchar('-');
 	}
-	count = base_convert(i, 10);
+	count += base_convert(i, 10);
 
 	return (count);
 }
