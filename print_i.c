@@ -14,9 +14,9 @@ int print_i(va_list args)
 	if (i < 0)
 	{
 		i = -i;
-		_putchar('-');
+		count += _putchar('-');
 	}
-	count = base_convert(i, 10);
+	count += base_convert(i, 10);
 
 	return (count);
 }
